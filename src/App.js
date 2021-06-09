@@ -6,7 +6,6 @@ import { Cita } from './components/Cita';
 export const App = () => {
 
     const citasIniciales =  JSON.parse(localStorage.getItem('citas')) || [] ;
-    console.log(citasIniciales);
 
     const [ citas, setCitas ] = useState(citasIniciales);
 
